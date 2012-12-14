@@ -6,5 +6,5 @@
 
 set(target_libraries
   CTKPluginFramework
-  QuaZip
+  QUAZIP_LIBRARIES
 )

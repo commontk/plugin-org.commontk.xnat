@@ -24,12 +24,12 @@
 
 #include <QtPlugin>
 
-void ctkLogPlugin::start(ctkPluginContext* context)
+void ctkActivator::start(ctkPluginContext* context)
 {
   Q_UNUSED(context)
 }
 
-void ctkLogPlugin::stop(ctkPluginContext* context)
+void ctkActivator::stop(ctkPluginContext* context)
 {
   Q_UNUSED(context)
 }
