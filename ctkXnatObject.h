@@ -22,7 +22,7 @@
 #ifndef ctkXnatObject_h
 #define ctkXnatObject_h
 
-#include "org_commontk_xnat_EXPORT.h"
+#include "org_commontk_xnat_Export.h"
 
 #include <QList>
 #include <QObject>

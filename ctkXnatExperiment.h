@@ -22,7 +22,7 @@
 #ifndef ctkXnatExperiment_h
 #define ctkXnatExperiment_h
 
-#include "org_commontk_xnat_EXPORT.h"
+#include "org_commontk_xnat_Export.h"
 
 #include "ctkXnatObject.h"
 

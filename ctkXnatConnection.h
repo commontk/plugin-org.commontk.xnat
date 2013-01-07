@@ -22,7 +22,7 @@
 #ifndef ctkXnatConnection_h
 #define ctkXnatConnection_h
 
-#include "org_commontk_xnat_EXPORT.h"
+#include "org_commontk_xnat_Export.h"
 
 #include <QScopedPointer>
 #include <QString>

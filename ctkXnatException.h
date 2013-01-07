@@ -22,7 +22,7 @@
 #ifndef ctkXnatException_h
 #define ctkXnatException_h
 
-#include "org_commontk_xnat_EXPORT.h"
+#include "org_commontk_xnat_Export.h"
 
 #include <exception>
 #include <string>

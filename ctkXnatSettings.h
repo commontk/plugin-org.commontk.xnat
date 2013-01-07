@@ -22,7 +22,7 @@
 #ifndef ctkXnatSettings_h
 #define ctkXnatSettings_h
 
-#include "org_commontk_xnat_EXPORT.h"
+#include "org_commontk_xnat_Export.h"
 
 #include <QMap>
 #include <QString>
