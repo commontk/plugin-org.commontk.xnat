@@ -2,7 +2,7 @@ project(org_commontk_xnat)
 
 set(PLUGIN_export_directive "org_commontk_xnat_EXPORT")
 
-include_directories(${QT_QTSCRIPT_INCLUDE_DIR})
+find_package(Qt4 4.6.2 COMPONENTS QtScript REQUIRED)
 
 set(PLUGIN_SRCS
   ctkActivator.cpp
