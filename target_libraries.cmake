@@ -8,4 +8,5 @@ set(target_libraries
   CTKPluginFramework
   QRESTAPI_LIBRARIES
   QUAZIP_LIBRARIES
+  QtScript
 )

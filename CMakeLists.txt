@@ -3,7 +3,6 @@ project(org_commontk_xnat)
 set(PLUGIN_export_directive "org_commontk_xnat_EXPORT")
 
 include_directories(${QT_QTSCRIPT_INCLUDE_DIR})
-include_directories(${qRestAPI_INCLUDE_DIRS})
 
 set(PLUGIN_SRCS
   ctkActivator.cpp
@@ -65,8 +64,7 @@ ctkMacroBuildPlugin(
   MOC_SRCS ${PLUGIN_MOC_SRCS}
   UI_FORMS ${PLUGIN_UI_FORMS}
   RESOURCES ${PLUGIN_resources}
-  TARGET_LIBRARIES ${PLUGIN_target_libraries} qRestAPI
-#  TARGET_LIBRARIES ${PLUGIN_target_libraries}
+  TARGET_LIBRARIES ${PLUGIN_target_libraries}
 )
 
 # Testing
