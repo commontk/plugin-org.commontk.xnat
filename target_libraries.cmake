@@ -6,7 +6,7 @@
 
 set(target_libraries
   CTKPluginFramework
-  QRESTAPI_LIBRARIES
+  qRestAPI_LIBRARIES
   QUAZIP_LIBRARIES
   QtScript
 )
